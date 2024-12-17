@@ -9,7 +9,9 @@
         We strive to provide the best service possible, and your feedback helps us achieve that goal. Whether you have a
         suggestion, a concern, or a complaint, please feel free to let us know. We are here to listen and improve.
       </p>
-      <input type="text" placeholder="Search train..." class="form-control" />
+      <div class="search-bar">
+        <input type="text" placeholder="Search train..." class="form-control" />
+      </div>
     </div>
   </section>
 </template>
@@ -83,5 +85,13 @@
     max-width: 250px;
   }
 
+  .hero {
+    height: 60vh;
+  }
+
+  .search-bar {
+    justify-self: start;
+    width: 60vw;
+  }
 }
 </style>
