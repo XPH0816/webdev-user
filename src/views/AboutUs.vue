@@ -23,6 +23,7 @@ import SectionCard from '@/components/SectionCard.vue';
           transportation infrastructure, providing a sustainable and efficient means of travel and freight transport.
         </p>
       </div>
+      <hr>
       <div class="about-image">
         <img src="https://tse1.mm.bing.net/th?id=OIP.HxaKqLmvfNy7CpWe7vhCagHaEM&pid=Api&P=0&h=180"
           alt="About Image 1" />
@@ -32,9 +33,11 @@ import SectionCard from '@/components/SectionCard.vue';
   <SectionCard>
     <section class="about-section">
       <div class="about-image">
-        <img src="https://tse3.mm.bing.net/th?id=OIP.x1-rZBc4TeWlZMA_eWVHTAHaFH&pid=Api&P=0&h=180"
-          alt="About Image 2" />
+        <video width="100%" autoplay loop muted>
+          <source src="@/assets/videos/intro.mp4" type="video/mp4" />
+        </video>
       </div>
+      <hr>
       <div class="about-content">
         <h1>Our Vision</h1>
         <p>
@@ -74,6 +77,7 @@ import SectionCard from '@/components/SectionCard.vue';
           the environment.
         </p>
       </div>
+      <hr>
       <div class="about-image">
         <img src="https://tse2.mm.bing.net/th?id=OIP.geM5utLtuMy-vcUZ7ibs-AHaEK&pid=Api&P=0&h=180"
           alt="About Image 3" />
@@ -111,14 +115,15 @@ h1 {
 .about-image {
   flex: 1;
   min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-image img {
-  width: auto;
-  height: 100%;
+  width: 100%;
   border-radius: 2%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -128,6 +133,10 @@ h1 {
 
   p {
     font-size: 1rem;
+  }
+
+  .about-content img {
+    height: 100%;
   }
 }
 </style>
