@@ -42,7 +42,7 @@ function handleSubmit() {
 
 <style scoped>
 * {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif;
 }
 
 .container {

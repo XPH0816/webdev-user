@@ -64,7 +64,7 @@ function togglePasswordVisibility() {
 
 <style scoped>
 * {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif;
 }
 
 .register-container {

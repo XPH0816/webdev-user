@@ -94,11 +94,13 @@ button#menu-toggle {
   }
 
   .navbar.active {
-    height: 22dvh;
+    height: 35dvh;
   }
 
   .navbar nav {
     flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
     gap: 10px;
     transform: translateY(-100vh);
     transition: transform 1s ease-in-out;
